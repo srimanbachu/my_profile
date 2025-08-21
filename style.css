@@ -1,12 +1,12 @@
 nav {
-  background-color: #333;  
+  background-color: #3333334c;  
   overflow: hidden;
   position: fixed;         
   width: 100%;
   height: 70px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(222, 218, 218, 0.19);
   text-align: center;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 nav a {
@@ -23,13 +23,18 @@ nav a:hover {
   color: black;
 }
 
+nav h1:hover {
+  color: rgba(16, 16, 13, 0.597);       /* changes color */
+  transform: scale(0.9) rotate(-180deg); /* grows slightly and tilts */
+}
+
 
 section {
   height: 100vh;   
   padding: 60px;
 }
 
-#home { background: lightblue; }
+#home { background: lavender;}
 #about { background: lightgreen; }
 #services { background: lightcoral; }
 #contact { background: lightgoldenrodyellow; }
@@ -42,5 +47,18 @@ body {
 nav h1 {
   float: left;
   color: aliceblue;
-  padding: 30;
 }
+
+section p {
+  font-size: medium;
+  font-family: Arial, sans-serif;
+  color: rgb(104, 104, 104);
+}
+
+section img {
+margin-left: 900px;
+top: 40px;
+height: 300px;
+width: 550px;
+}
+
