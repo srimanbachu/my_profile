@@ -35,16 +35,17 @@ section {
   padding: 60px;
 }
 
-#home {
-  background: rgb(255, 218, 83);
-}
+#contact {
+  height: 40vh;
+  padding: 60px;
+} 
 
-#projects {
-  background: lightcoral;
+#home {
+    background: linear-gradient(to right, black, rgb(255, 208, 54));
 }
 
 #contact {
-  background: lightgoldenrodyellow;
+  background: linear-gradient(to right, black, rgb(14, 19, 37));
 }
 
 body {
@@ -60,7 +61,7 @@ nav h1 {
 section p {
   font-size: medium;
   font-family: Arial, sans-serif;
-  color: rgb(104, 104, 104);
+  color: rgb(204, 204, 204);
 }
 
 section img {
@@ -70,6 +71,5 @@ section img {
   border-radius: 30px;
 }
 
-section contact{
-  
-}
+
+
