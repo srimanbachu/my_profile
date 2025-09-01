@@ -30,6 +30,10 @@ nav h1 {
   color: aliceblue;
 }
 
+h1 {
+  color: aliceblue;
+}
+
 nav h1:hover {
   color: rgba(16, 16, 13, 0.597);
   transform: scale(0.9) rotate(-180deg);
@@ -38,7 +42,9 @@ nav h1:hover {
 section {
   height: 100vh;
   padding: 60px;
+  padding-top: 100px; /* pushes content below navbar */
 }
+
 
 #contact {
   height: 40vh;

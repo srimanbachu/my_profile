@@ -68,9 +68,10 @@ nav h1:hover {
   }
 
   #projects {
-    padding: 40px;
-    font-size: 14px;
-  }
+    padding: 60px;
+    padding-top: 100px; /* pushes heading below navbar */
+    color: white;
+  }  
 }
 
 /* Phones */
