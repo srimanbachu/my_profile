@@ -1,3 +1,4 @@
+/* ------------------- Base Styles ------------------- */
 nav {
   background-color: #3333334c;
   overflow: hidden;
@@ -24,11 +25,15 @@ nav a:hover {
   transform: scale(0.9) rotate(-180deg);
 }
 
+nav h1 {
+  float: left;
+  color: aliceblue;
+}
+
 nav h1:hover {
   color: rgba(16, 16, 13, 0.597);
   transform: scale(0.9) rotate(-180deg);
 }
-
 
 section {
   height: 100vh;
@@ -41,7 +46,7 @@ section {
 } 
 
 #home {
-    background: linear-gradient(to right, black, rgb(255, 208, 54));
+  background: linear-gradient(to right, black, rgb(255, 208, 54));
 }
 
 #contact {
@@ -51,11 +56,6 @@ section {
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-}
-
-nav h1 {
-  float: left;
-  color: aliceblue;
 }
 
 section p {
@@ -71,5 +71,72 @@ section img {
   border-radius: 30px;
 }
 
+/* ------------------- Responsive Styles ------------------- */
 
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+  nav {
+    height: 60px;
+    border-radius: 20px;
+  }
 
+  nav a {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  nav h1 {
+    font-size: 20px;
+  }
+
+  section {
+    padding: 40px;
+    height: auto;
+  }
+
+  section img {
+    height: 220px;
+    width: 220px;
+  }
+
+  section p {
+    font-size: 14px;
+  }
+}
+
+/* Phones (480px and below) */
+@media (max-width: 480px) {
+  nav {
+    height: auto;
+    text-align: center;
+    padding: 10px;
+  }
+
+  nav a {
+    float: none;
+    display: block;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  nav h1 {
+    float: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  section {
+    padding: 20px;
+    height: auto;
+  }
+
+  section img {
+    height: 150px;
+    width: 150px;
+  }
+
+  section p {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+}
